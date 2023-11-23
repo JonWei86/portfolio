@@ -1,0 +1,236 @@
+html {
+  margin: auto;
+  padding: 0;
+}
+body {
+  margin: 0%;
+  /* background-color: #2c2c2c; */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 3rem 0 3rem;
+  background-color: #0c5234;
+  position: sticky;
+  top: 0;
+  box-shadow: 0.1vw 0.1vw 0.25vw #444444;
+  z-index: 1;
+}
+
+.navbarContainer > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0 3vw 0 0;
+  margin: 0;
+}
+
+.navbarContainer > ul > li {
+  display: flex;
+  margin: 0 0 0 2vw;
+  font-size: 1.5vw;
+}
+
+.navbarContainer > h2 {
+  padding-left: 3vw;
+  font-size: 1.91vw;
+  color: white;
+  margin: 0.5vw;
+  text-shadow: 0.1vw 0.1vw 1vw black;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0.1vw 0.1vw 1vw black;
+}
+
+.navLink:hover {
+  /* font-size: 1.6vw; */
+  border-bottom: 0.2vw white solid;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-image: url("../../src/assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.hero > h1 {
+  padding: 7.5vw 0 1.91vw 0;
+  margin: 0;
+  font-weight: 900;
+  font-size: 5vw;
+  text-shadow: 0.5vw 0.5vw 0.3vw #000000;
+}
+
+.hero > p {
+  margin: 0;
+  padding: 0 0 1.91vw 0;
+  font-size: 3.09vw;
+  font-weight: 400;
+  text-shadow: 0.5vw 0.5vw 0.3vw #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero-buttons-container {
+  padding: 1.91vw;
+}
+
+.hero-buttons {
+  margin: 2vw;
+}
+
+button {
+  font-size: 1.5vw;
+  padding: 1vw;
+  background-color: black;
+  color: white;
+  opacity: 60%;
+  text-align: center;
+  border-radius: 0.5vw;
+  box-shadow: 0.3vw 0.3vw 1vw #000000;
+}
+
+button:hover {
+  background-color: #0c5234;
+  opacity: 100%;
+  font-size: 1.55vw;
+  box-shadow: 0.3vw 0.3vw 0.75vw #000000;
+  cursor: pointer;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 3vw;
+}
+
+.section-title {
+  font-size: 3vw;
+  margin: 0;
+  padding: 0 0 1.91vw 0;
+  text-shadow: 0.1vw 0.1vw 0.2vw rgb(108, 108, 108);
+}
+.skills-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0 0 1.91vw 0;
+  width: 80vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.skills-row {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 1.91vw;
+  border-radius: 0.5vw;
+  box-shadow: 0.15vw 0.15vw 1vw rgb(108, 108, 108);
+}
+
+.skills-title > h3 {
+  margin: 0;
+  padding: 0 0 0.5vw 0;
+  font-size: 1.91vw;
+}
+
+.skills-title {
+  background-color: #0c5234;
+  color: white;
+  padding: 0.5vw;
+  border-radius: 0.5vw 0.5vw 0vw 0vw;
+  text-align: center;
+}
+
+svg {
+  padding: 0.75vw;
+  height: 3vw;
+  width: 3vw;
+}
+
+.skills-row > div > ul > li {
+  list-style: none;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+}
+
+.skills-button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-button-container > a {
+  margin: 0 2vw;
+}
+
+#social {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #0c5234;
+  color: white;
+  align-content: center;
+}
+
+#social > h3 {
+  padding: 0.75vw 0 0 0;
+  margin: 0;
+  font-size: 1.5vw;
+}
+
+#social > ul {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+#social > ul > a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  text-shadow: 0.1vw 0.1vw 0.5vw black;
+}
+
+#social > ul > a:visited {
+  color: white;
+}
+
+#social > ul > a:hover {
+  /* font-size: 1.6vw; */
+  border-bottom: 0.2vw white solid;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
